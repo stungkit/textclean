@@ -334,7 +334,7 @@ Contributing
 
 Contributions are welcome from anyone subject to the following rules:
 
--   Abide by the [code of conduct](CONDUCT.md).
+-   Abide by the [Code of Conduct](https://github.com/trinker/textclean/blob/main/CONDUCT.md).
 -   Follow the style conventions of the package (indentation, function &
     argument naming, commenting, etc.)
 -   All contributions must be consistent with the package license
