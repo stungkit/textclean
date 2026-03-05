@@ -2,7 +2,7 @@
 state and is being actively
 developed.](https://www.repostatus.org/badges/0.1.0/active.svg)](https://www.repostatus.org/#active)
 [![Build
-Status](https://travis-ci.org/trinker/textclean.svg?branch=master)](https://travis-ci.org/trinker/textclean)
+Status](https://travis-ci.org/trinker/textclean.svg?branch=master)](https://app.travis-ci.com/trinker/textclean)
 [![Coverage
 Status](https://coveralls.io/repos/trinker/textclean/badge.svg?branch=master)](https://coveralls.io/github/trinker/textclean)
 [![](https://cranlogs.r-pkg.org/badges/textclean)](https://cran.r-project.org/package=textclean)
@@ -15,7 +15,7 @@ be more intuitive, better named, and faster. Tools are geared at
 checking for substrings that are not optimal for analysis and replacing
 or removing them (normalizing) with more analysis friendly substrings
 (see Sproat, Black, Chen, Kumar, Ostendorf, & Richards, 2001,
-[doi:10.1006/csla.2001.0169](https://www.sciencedirect.com/science/article/pii/S088523080190169X))
+[doi:10.1006/csla.2001.0169](https://dl.acm.org/doi/abs/10.1006/csla.2001.0169))
 or extracting them into new variables. For example, emoticons are often
 used in text but not always easily handled by analysis algorithms. The
 `replace_emoticon()` function replaces emoticons with word equivalents.
@@ -334,7 +334,7 @@ Contributing
 
 Contributions are welcome from anyone subject to the following rules:
 
--   Abide by the [Code of Conduct](https://github.com/trinker/textclean/blob/main/CONDUCT.md).
+-   Abide by the [Code of Conduct](https://github.com/trinker/textclean/blob/master/CODE_OF_CONDUCT.md).
 -   Follow the style conventions of the package (indentation, function &
     argument naming, commenting, etc.)
 -   All contributions must be consistent with the package license
