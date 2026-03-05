@@ -7,8 +7,7 @@
 replace_word_elongation(
   x,
   impart.meaning = FALSE,
- 
-    elongation.search.pattern = "(?i)(?:^|\\\\b)\\\\w+([a-z])(\\\\1{2,})\\\\w*(?:$|\\\\b)",
+  elongation.search.pattern = "(?i)(?:^|\\\\b)\\\\w+([a-z])(\\\\1{2,})\\\\w*(?:$|\\\\b)",
   conservative = FALSE,
   elongation.pattern = sprintf("([a-z])(\\\\1{\%s,})", as.integer(conservative) + 1),
   ...

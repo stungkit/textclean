@@ -2,9 +2,28 @@
 % Please edit documentation in R/textclean-package.R
 \docType{package}
 \name{textclean}
+\alias{textclean-package}
 \alias{textclean}
 \alias{package-textclean}
 \title{Text Cleaning Tools}
 \description{
 Tools to clean and process text.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/trinker/textclean}
+  \item Report bugs at \url{https://github.com/trinker/textclean/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Tyler Rinker \email{tyler.rinker@gmail.com}
+
+Other contributors:
+\itemize{
+  \item ctwheels StackOverflow [contributor]
+  \item Surin Space [contributor]
+}
+
 }

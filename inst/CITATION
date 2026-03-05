@@ -1,15 +1,17 @@
-citHeader("To cite textclean in publications, please use:")
+meta <- packageDescription("textclean")
 
-
-citEntry(entry = "manual",
-    title = "{textclean}: Text Cleaning Tools",
-    author = "Tyler W. Rinker",
-    address = "Buffalo, New York",
-    note = "version 0.9.6",
-    year = "2021",
-    url = "https://github.com/trinker/textclean", 
-    textVersion  = paste("Rinker, T. W. (2021).",
-        "textclean: Text Cleaning Tools",
-        "version 0.9.6. Buffalo, New York.",
-        "https://github.com/trinker/textclean")
+bibentry(
+  bibtype = "Manual",
+  title   = "textclean: Text Cleaning Tools",
+  author  = person(meta$Author),
+  year    = format(Sys.Date(), "%Y"),
+  note    = paste("R package version", meta$Version),
+  url     = meta$URL,
+  textVersion = paste(
+    meta$Author,
+    sprintf("(%s).", format(Sys.Date(), "%Y")),
+    "textclean: Text Cleaning Tools.",
+    sprintf("R package version %s.", meta$Version),
+    meta$URL
+  )
 )
