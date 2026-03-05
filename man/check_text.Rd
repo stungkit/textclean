@@ -27,7 +27,6 @@ meta checks).}
 }
 \value{
 Returns a list with the following potential text faults report:\cr
-\itemize{
   \item{contraction}{- Text elements that contain contractions}
   \item{date}{- Text elements that contain dates}
   \item{digit}{- Text elements that contain digits/numbers}
@@ -51,7 +50,6 @@ Returns a list with the following potential text faults report:\cr
   \item{tag}{- Text elements that contain Twitter style handle tags (e.g., @trinker)}
   \item{time}{- Text elements that contain timestamps}
   \item{url}{- Text elements that contain URLs}
-}
 }
 \description{
 \code{check_text} - Uncleaned text may result in errors, warnings, and 

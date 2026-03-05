@@ -18,7 +18,6 @@
 #' @param n The number of affected elements to print out (the rest are truncated).
 #' @param \ldots ignored.
 #' @return Returns a list with the following potential text faults report:\cr
-#' \itemize{
 #'   \item{contraction}{- Text elements that contain contractions}
 #'   \item{date}{- Text elements that contain dates}
 #'   \item{digit}{- Text elements that contain digits/numbers}
@@ -42,7 +41,7 @@
 #'   \item{tag}{- Text elements that contain Twitter style handle tags (e.g., @@trinker)}
 #'   \item{time}{- Text elements that contain timestamps}
 #'   \item{url}{- Text elements that contain URLs}
-#' }
+#'
 #' @note The output is a list containing meta checks and elemental checks
 #' but prints as a pretty formatted output with potential problem elements, the 
 #' accompanying text, and possible suggestions to fix the text.
