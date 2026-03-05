@@ -1,10 +1,10 @@
-#' Text Cleaning Tools
+#' textclean: Text Cleaning Tools
 #'
 #' Tools to clean and process text.
-#' @docType package
-#' @name textclean
-#' @aliases textclean package-textclean
-NULL
+#'
+#' @keywords internal
+"_PACKAGE"
+
 
 #' Fictitious Classroom Dialogue
 #'
@@ -25,4 +25,3 @@ NULL
 #' @usage data(DATA)
 #' @format A data frame with 11 rows and 5 variables
 NULL
-
